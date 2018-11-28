@@ -1,0 +1,20 @@
+title: Wiki
+
+github:
+  org: adborden
+  repository: jekyll-theme-wiki
+
+collections:
+  wiki:
+    output: true
+    permalink: /wiki/:path/
+
+defaults:
+  - scope:
+      path: ''
+    values:
+      layout: page
+  - scope:
+      type: wiki
+    values:
+      layout: wiki-page
