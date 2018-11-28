@@ -1,5 +1,10 @@
 title: Wiki
 
+baseurl: ''
+url: https://example.com
+
+#disqus: https://your-disqus-url.disqus.com
+
 github:
   org: adborden
   repository: jekyll-theme-wiki
@@ -18,3 +23,4 @@ defaults:
       type: wiki
     values:
       layout: wiki-page
+      comments: true
